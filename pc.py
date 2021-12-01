@@ -468,7 +468,7 @@ def loadConfig():
 
         requested_diff = "2"
         
-        rig_identiier = "Hello123"
+        rig_identiier = "pc"
 
         
 
@@ -965,7 +965,7 @@ def Thread(
                                     + "s"
                                     + Style.NORMAL
                                     + " ∙ "
-                                    + Fore.BLUE
+                                    + Fore.WHITE
                                     + Style.BRIGHT
                                     + str(formattedhashcount)
                                     + Fore.RESET
@@ -1023,7 +1023,7 @@ def Thread(
                                     + "s"
                                     + Style.NORMAL
                                     + " ∙ "
-                                    + Fore.BLUE
+                                    + Fore.WHITE
                                     + Style.BRIGHT
                                     + str(formattedhashcount)
                                     + Fore.RESET
@@ -1098,7 +1098,7 @@ def pretty_print(message_type, message, state):
     # Prints colored output messages
     # Usb/net/sys background
     if message_type.startswith("net"):
-        background = Back.BLUE
+        background = Back.WHITE
     elif message_type.startswith("cpu"):
         background = Back.YELLOW
     if message_type.startswith("sys"):
